@@ -3,13 +3,13 @@
 This Website Monitoring Application is a Node.js tool designed to monitor websites and track various metrics such as uptime, response time, and content changes. Users can initiate monitoring tasks via HTTP requests, and the application fetches website data and stores relevant information for analysis.
 
 ## Features
-**Uptime Monitoring**: Checks if a website is up and running.
-**Response Time Tracking**: Measures and records the response time of the website.
-**Load Time Tracking**: Measures and records the load time of the website.
-**Network Activity Monitoring**: Monitors incoming requests, responses and status codes.
-**Content Change Detection**: Monitors for changes in the website content.
-**Data Storage**: Stores monitoring data for further analysis.
-**HTTP Request Trigger**: Monitoring tasks can be started using HTTP requests, compatible with tools like Postman.
+  **Uptime Monitoring**: Checks if a website is up and running.
+  **Response Time Tracking**: Measures and records the response time of the website.
+  **Load Time Tracking**: Measures and records the load time of the website.
+  **Network Activity Monitoring**: Monitors incoming requests, responses and status codes.
+  **Content Change Detection**: Monitors for changes in the website content.
+  **Data Storage**: Stores monitoring data for further analysis.
+  **HTTP Request Trigger**: Monitoring tasks can be started using HTTP requests, compatible with tools like Postman.
 
 ## Prerequisites
 Before setting up the application, ensure you have the following installed:
@@ -50,9 +50,9 @@ To start monitoring a website:
 
 1. Open Postman or your preferred HTTP client.
 2. Set up a new request with the following details:
-**Method**: POST (or as per your application design)
-**URL**: http://localhost:80/monitor
-**Body**: Include necessary data as per your application's requirements (e.g., URL of the website to monitor).
+  **Method**: POST (or as per your application design)
+  **URL**: http://localhost:80/monitor
+  **Body**: Include necessary data as per your application's requirements (e.g., URL of the website to monitor).
 
 ### Viewing Results
 The results of the monitoring will be stored in your specified storage solution.
